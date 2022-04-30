@@ -6,19 +6,13 @@ Console.WriteLine ("Введите второе число ");
 int numB = int.Parse(Console.ReadLine());
 if (numA > numB) 
 {
-    Console.Write(numA);
-    Console.Write(" больше чем ") ;
-    Console.WriteLine(numB) ;
+    Console.Write(numA + " больше чем " + numB) ;
 }
 if (numA < numB) 
 {
-    Console.Write(numA);
-    Console.Write(" меньше чем ") ;
-    Console.WriteLine(numB) ;
+    Console.Write(numA + " меньше чем " + numB);
 }
 if (numA == numB) 
 {
-    Console.Write(numA);
-    Console.Write(" равно ") ;
-    Console.WriteLine(numB) ;
+    Console.Write(numA + " равно " + numB) ;
 }
